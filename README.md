@@ -3,4 +3,4 @@ Simple PowerShell script to run Active Directory snap in and other executable fi
 
 To use this script you need to have installed Remote Server Administration Tools on your Windows.
 
-I created this script to make it easier for me to run the Active Directory snap-in and other applications using various domain accounts in Windows 10.
+I created this script to make it easier to run the Active Directory snap-in and other applications using various domain accounts in Windows 10.
