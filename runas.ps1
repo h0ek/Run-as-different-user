@@ -20,12 +20,12 @@ do
            '1' {
                 cls
 				$user = Read-Host -Prompt 'Enter username'
-#				$domain = Read-Host -Prompt 'Enter domain'
+				$domain = Read-Host -Prompt 'Enter domain'
 				runas /netonly /user:$user@$domain "mmc.exe dsa.msc"
            } '2' {
                 cls
 				$user = Read-Host -Prompt 'Enter username'
-#				$domain = Read-Host -Prompt 'Enter domain'
+				$domain = Read-Host -Prompt 'Enter domain'
 				runas /netonly /user:$user@$domain "dsac.exe"
 		   } '3' {
                 cls
